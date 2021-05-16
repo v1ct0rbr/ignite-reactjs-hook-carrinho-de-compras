@@ -7,26 +7,26 @@ import { Container, Cart } from './styles';
 import { useCart } from '../../hooks/useCart';
 
 const Header = (): JSX.Element => {
-  // const { cart } = useCart();
-  // const cartSize = // TODO;
+	const { cart } = useCart();
 
-  return (
-    <Container>
-      <Link to="/">
-        <img src={logo} alt="Rocketshoes" />
-      </Link>
+	// - **should be able to render the amount of products added to cart**
+	const cartSize = cart.length;
 
-      <Cart to="/cart">
-        <div>
-          <strong>Meu carrinho</strong>
-          <span data-testid="cart-size">
-            {/* {cartSize === 1 ? `${cartSize} item` : `${cartSize} itens`} */}
-          </span>
-        </div>
-        <MdShoppingBasket size={36} color="#FFF" />
-      </Cart>
-    </Container>
-  );
+	return (
+		<Container>
+			<Link to="/">
+				<img src={logo} alt="Rocketshoes" />
+			</Link>
+
+			<Cart to="/cart">
+				<div>
+					<strong>Meu carrinho</strong>
+					<span data-testid="cart-size">{cartSize === 1 ? `${cartSize} item` : `${cartSize} itens`}</span>
+				</div>
+				<MdShoppingBasket size={36} color="#FFF" />
+			</Cart>
+		</Container>
+	);
 };
 
 export default Header;

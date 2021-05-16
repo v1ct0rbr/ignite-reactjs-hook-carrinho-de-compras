@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 import background from '../assets/images/background.svg';
 
 export default createGlobalStyle`
@@ -28,5 +29,22 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+    background: #7159c1;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: auto;
+
+      display: flex;
+      align-items: center;
+      transition: background 0.2s;
+
+     
+     
+
+  }
+  a{
+    text-decoration: none !important;
   }
 `;
