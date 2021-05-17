@@ -22,7 +22,5 @@
 ------------
 #### Carrinho
 [![Carrinho](https://firebasestorage.googleapis.com/v0/b/my-images-debc9.appspot.com/o/projetos%2Fignite%2Fdesafio-hook-carrinho-de-compras%2Fcarrinho.png?alt=media&token=51bb9351-9241-472e-ba1c-0c8d731ce5b4 "Carrinho")](http:/https://firebasestorage.googleapis.com/v0/b/my-images-debc9.appspot.com/o/projetos%2Fignite%2Fdesafio-hook-carrinho-de-compras%2Fcarrinho.png?alt=media&token=51bb9351-9241-472e-ba1c-0c8d731ce5b4/ "Carrinho")
-------------
-#### Empty Cart
-[![Empty Cart](https://firebasestorage.googleapis.com/v0/b/my-images-debc9.appspot.com/o/projetos%2Fignite%2Fdesafio-hook-carrinho-de-compras%2Fempty_cart.png?alt=media&token=1ac1bbec-6e50-41ca-8a72-894648e9d06e "Empty Cart")](http://https://firebasestorage.googleapis.com/v0/b/my-images-debc9.appspot.com/o/projetos%2Fignite%2Fdesafio-hook-carrinho-de-compras%2Fempty_cart.png?alt=media&token=1ac1bbec-6e50-41ca-8a72-894648e9d06e "Empty Cart")
+
 
