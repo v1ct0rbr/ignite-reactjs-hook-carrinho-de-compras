@@ -79,6 +79,25 @@ const Home = (): JSX.Element => {
 					</li>
 				);
 			})}
+			{/* <li key={30}>
+						<img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg" alt="teste" />
+						<strong>teste</strong>
+
+						<span>R$ 300</span>
+						<button
+							type="button"
+							data-testid="add-product-button"
+							// should be able to add a product to cart
+							onClick={() => handleAddProduct(30)}
+						>
+							<div data-testid="cart-product-quantity">
+								<MdAddShoppingCart size={16} color="#FFF" />
+								{cartItemsAmount[30] || 0}
+							</div>
+
+							<span>ADICIONAR AO CARRINHO</span>
+						</button>
+					</li> */}
 		</ProductList>
 	);
 };
